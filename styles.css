@@ -1,0 +1,70 @@
+body {
+    font-family:'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+h1 {
+    color: black;
+    font-size: 5vw;
+    text-align: center;
+    border-bottom:hsl(from color h s l);
+}
+
+h2 {
+    color: aqua;
+    font-size: 3vw;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h3 {
+    text-align: center;
+    color: darkblue;
+    font-size: large;
+}
+
+p {
+    margin: 20px;
+    padding: 10px;
+    border: 2px solid black;
+}
+
+p:hover {
+    color: white;
+    background-color: black;
+}
+
+nav {
+    background-color: white;
+    padding: 10px 0;
+}
+
+.horizontal-menu {
+    list-style: none; /* Remove default list style */
+    margin: 0;
+    padding: 0;
+    display: flex; /* Arrange items horizontally */
+    justify-content: center; /* Center menu items */
+    border-bottom:hsl(from color h s l);
+}
+
+.horizontal-menu li {
+    margin: 0 60px; /* Space between items */
+}
+
+.horizontal-menu a {
+    color: black; /* Black text color */
+    text-decoration: none; /* Remove underline */
+    font-size: 18px;
+    padding: 8px 12px;
+    display: block;
+    transition: background-color 0.3s; /* Smooth hover effect */
+}
+
+.horizontal-menu a:hover {
+    color: white;
+    background-color: black; /* Change background on hover */
+    border-radius: 20px; /* Add rounded corners */
+}
